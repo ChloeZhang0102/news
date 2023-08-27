@@ -1,0 +1,395 @@
+
+body {
+    margin: 0 ;
+    padding: 0;
+    width: 100vw;
+    background-color: rgb(247, 245, 238);
+}
+a {
+    text-decoration: none;
+}
+.c7bzh_.L27qsU {
+    font-family: math;
+    font-weight: bold;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    width: 100vw;
+    /* z-index: var(--above-all-z-index); */
+}
+
+.c7bzh_ .YD5pSO {
+    align-items: center;
+    background: #eff1f2;
+    border-bottom: 3px solid #a0138e;
+    box-sizing: border-box;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    width: 100%;
+}
+.c7bzh_ .YD5pSO>.aGHwBE {
+    align-items: center;
+    display: flex;
+}
+.c7bzh_ .YD5pSO>.aGHwBE .areOb6 {
+    display: flex;
+    align-items: center;
+    color: #20303c;
+    flex-shrink: 0;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.c7bzh_ .YD5pSO>.aGHwBE .O0tKs2.Oxzvyr {
+    margin-left: 6px;
+}
+.c7bzh_ .YD5pSO>.aGHwBE .O0tKs2 {
+    align-items: center;
+    border: 1px solid #a0138e;
+    border-radius: 17px;
+    color: #a0138e;
+    display: inline-flex;
+    flex-shrink: 0;
+    font-size: 14px;
+    height: 35px;
+    justify-content: center;
+    text-align: center;
+    width: 112px;
+}
+.main {
+    margin-top: 100px;
+}
+.name {
+    font-size: 66px;
+    text-align: center;
+    color: #E48888;
+    margin-bottom: 100px;
+    font-weight: 700;
+    font-family: Sriracha,cursive;
+}
+.title_p {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 35px;
+    color: #E48888;
+    font-weight: 700;
+    font-family: Sriracha,cursive;
+}
+.list {
+    margin: 50px auto;
+    background-color: #f2ede1;
+    /* padding: 50px; */
+    display: flex;
+    width: 90vw;
+    padding-bottom: 100px;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
+.list p {
+    font-size: 18px;
+    margin: 10px;
+    font-family: math;
+}
+.list p i {
+    color: black;
+    font-weight: bold;
+}
+.list p span {
+    color: #e48888;
+}
+.list .item {
+    position: relative;
+    margin: 40px 20px;
+}
+.list img {
+    width: 285px;
+}
+.list .item .text {
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    background-color: #f7f5ee;
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto;
+    bottom: -15%;
+    left: 3%;
+    color: #e48888;
+}
+.sec_c {
+    font-size: 18px;
+    margin: 10px;
+    font-family: math;
+    text-align: center;
+}
+
+.dropbtn {
+    font-weight: bold;
+    
+    background-color: transparent;
+    color: #f1ebdd;
+    /* padding: 16px; */
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+.dropbtn :hover {
+    color: black !important;
+}
+.ul_list {
+    /* font-family: Sriracha,cursive; */
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 0 10px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    background-color: #e48888;
+    width: 450px;
+    height:30px;
+}
+.aimgList {
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.aimgList img {
+   height: 190px;
+    margin: 10px;
+}
+
+.dropdown {
+    
+    /* left: 47%; */
+    /* 声明为相对定位，下面的子元素可以参考该元素 */
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    /* 隐藏元素 */
+    /* left: -2em; */
+    /* background-color: #e48888; */
+    padding: 4px;
+    display: none;
+    left: -100px;
+    /* margin-top: 10px; */
+  
+    border-radius: 10px;
+    position: absolute;
+   
+}
+
+.dropdown-content a {
+    /* font-weight: normal; */
+    color: #f1ebdd;
+    background-color: #e48888;
+    white-space: nowrap;
+    text-decoration: none;
+    display: block;
+    padding: 6px;
+    font-size: 14px;
+}
+.btitle {
+    color: #E48888;
+    font-size: 20px;
+    margin: 30px 0;
+    font-weight: bold;
+}
+.ctitle {
+    color: #f5c542;
+    font-size: 20px;
+    margin: 30px 0;
+    font-weight: bold;
+}
+.dtitle {
+    color: #b36e5a;
+    font-size: 20px;
+    margin: 30px 0;
+    font-weight: bold;
+}
+.dsc {
+    margin-bottom: 40px;
+    color: #858585;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+.dsc span {
+    color: #b36e5a;
+}
+.csc {
+    margin-bottom: 40px;
+    color: #858585;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+.csc span {
+    color: #f5c542;
+}
+.bsc {
+    margin-bottom: 40px;
+    color: #858585;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+.bsc span {
+    color: #E48888;
+}
+
+.dropbtn:hover {
+    color: black;
+    transition: 0.8s;
+}
+/* .dropdown的hover效果，作用在.dropdown-content上 */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown a:hover {
+    color: black;
+    transition: 0.8s;
+}
+.about_p {
+    font-family: sriracha,cursive;color: #202020;font-size: 18px;text-align: center;
+}
+.about_p span {
+    color: #e48888;
+}
+.about_section {
+    margin: 30px 0;
+}
+.interC {
+    margin-top: 90px;
+}
+.interC .item {
+    
+    position: relative;
+}
+
+.lists {
+    margin-top: 30px;
+    padding-bottom: 60px;
+    display: flex;
+    width: 100vw;
+    background-color: #fdf3e5;
+    flex-direction: column;
+    align-items: center;
+}
+.lists img {
+    width: 623px;
+}
+
+.listss {
+    margin-top: 30px;
+    padding-bottom: 60px;
+    display: flex;
+    width: 100vw;
+    background-color: #fdf3e5;
+    flex-direction: column;
+    align-items: center;
+}
+.listss img {
+    width: 804px;
+}
+
+.listsss {
+    margin-top: 30px;
+    padding-bottom: 60px;
+    display: flex;
+    width: 100vw;
+    background-color: #fdf3e5;
+    flex-direction: column;
+    align-items: center;
+}
+.listsss img {
+    width: 804px;
+    margin: 10px 0;
+}
+
+.interC img {
+    width: 100vw;
+}
+.interC a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: #e48888;
+    font-size: 36px;
+    text-decoration: revert;
+    line-height: 89px;
+    text-align: center;
+    background-color: #f7f5ee;
+    left: 28%;
+    position: absolute;
+    bottom: 100px;
+    width: 532px;
+    height: 89px;
+    display: inline-block;
+}
+
+
+
+
+
+
+  @font-face {
+    font-family: 'Sriracha';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../font/0nkrC9D4IuYBgWcI9NbfTwHAovb1.woff2") format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  font-display: block;
+  }
+  
+ .klist {
+    display: flex;
+    width: 800px;
+    flex-wrap: wrap;
+    color: #858591;
+    font-weight: bold;
+ }
+ .klist .item {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+ }
+ .klist .item img {
+    width: 378px;
+ }
+ .klist p {
+    font-size: 12px;
+    margin: 5px;
+ }
+
+
+
+
+ .klists {
+    display: flex;
+    width: 800px;
+    flex-wrap: wrap;
+    color: #858591;
+    justify-content: center;
+    font-weight: bold;
+ }
+ .klists .item {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 10px;
+ }
+ .klists .item img {
+    width: 176px;
+ }
+ .klists p {
+    font-size: 12px;
+    margin: 5px;
+ }
