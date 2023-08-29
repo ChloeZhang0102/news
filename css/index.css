@@ -98,7 +98,7 @@ a {
 .list p {
     font-size: 18px;
     margin: 10px;
-    font-family: math;
+    font-family: 'yahei';
 }
 
 .list p i {
@@ -135,7 +135,7 @@ a {
 .sec_c {
     font-size: 18px;
     margin: 10px;
-    font-family: math;
+    font-family: 'yahei';
     text-align: center;
 }
 
@@ -378,7 +378,7 @@ a {
 }
 
 .about_p {
-    font-family: sriracha, cursive;
+    font-family: 'yahei';
     color: #202020;
     font-size: 18px;
     text-align: center;
